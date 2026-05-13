@@ -4,118 +4,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raj Singh | AI-Focused Developer</title>
+    <title>Raj Singh | AI Engineer & Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Raj Singh, an AI Engineer and Full-Stack Developer specializing in LLMs, RAG, and scalable applications.">
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
 
-    <header class="navbar">
-        <div class="logo">
-            <span class="logo-text">RS</span>
+    <!-- Dynamic Background -->
+    <div class="bg-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    <div class="noise-overlay"></div>
+
+    <header class="navbar glass-nav">
+        <div class="logo magnetic">
+            <span class="logo-text">R<span class="gradient-text">S</span>.</span>
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#home" class="magnetic-link">Home</a></li>
+                <li><a href="#about" class="magnetic-link">About</a></li>
+                <li><a href="#projects" class="magnetic-link">Projects</a></li>
+                <li><a href="#skills" class="magnetic-link">Skills</a></li>
+                <li><a href="#contact" class="magnetic-link">Contact</a></li>
             </ul>
         </nav>
         <div class="hamburger">
-            <i class="fas fa-bars"></i>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </header>
 
     <main>
         <!-- Home Section -->
         <section id="home" class="hero">
-            <div class="hero-content">
-                <p class="greeting">Hello, I'm</p>
-                <h1 class="name">Raj <span class="gradient-text">Singh</span></h1>
-                <h2 class="role">AI-Focused Developer & MERN Architect</h2>
-                <p class="hero-desc">
-                    Specializing in Computer Vision, Machine Learning, and highly scalable Full-Stack web applications.
-                    I turn intelligent models into real-world solutions.
-                </p>
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">View My Projects</a>
-                    <a href="RajResume.pdf" target="_blank" class="btn btn-secondary"><i class="fas fa-file-pdf"></i>
-                        Resume</a>
+            <div class="hero-container">
+                <div class="hero-content reveal-up">
+                    <div class="hiring-badge magnetic">
+                        <span class="pulse"></span> Open to Collaborate & Full-Time Roles
+                    </div>
+                    <h1 class="name">Raj <span class="gradient-text-animated">Singh</span></h1>
+                    <h2 class="role">
+                        <span class="typewriter"></span><span class="cursor-blink">|</span>
+                    </h2>
+                    <p class="hero-desc">
+                        Turning AI Research into Production Impact. <strong>3 deployed AI products. 100+ active users. 91% threat detection accuracy.</strong> I build intelligent systems and scalable web applications that solve real problems.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary magnetic">View Projects <i class="fas fa-arrow-right"></i></a>
+                        <a href="RajResume.pdf" target="_blank" class="btn btn-secondary magnetic"><i class="fas fa-file-pdf"></i> Resume</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/rajsingh9898" target="_blank" class="magnetic-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rajsingh9898/" target="_blank" class="magnetic-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/u/rajsingh9898/" target="_blank" class="magnetic-link" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                        <a href="mailto:rajsingh98447859@gmail.com" class="magnetic-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
                 </div>
-                <div class="social-links">
-                    <a href="https://github.com/rajsingh9898" target="_blank" aria-label="GitHub"><i
-                            class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/rajsingh9898/" target="_blank" aria-label="LinkedIn"><i
-                            class="fab fa-linkedin"></i></a>
-                    <a href="https://leetcode.com/u/rajsingh9898/" target="_blank" aria-label="LeetCode"><i
-                            class="fas fa-code"></i></a>
-                    <a href="mailto:rajsingh98447859@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                
+                <div class="hero-graphics reveal-up delay-2">
+                    <div class="profile-frame magnetic-heavy">
+                        <div class="profile-glow"></div>
+                        <img src="image.jpg" alt="Raj Singh" class="profile-img">
+                        
+                        <!-- Floating Tech Pills -->
+                        <div class="tech-pill pill-1 float-anim-1"><i class="fas fa-brain"></i> AI/ML</div>
+                        <div class="tech-pill pill-2 float-anim-2"><i class="fab fa-react"></i> Full-Stack</div>
+                        <div class="tech-pill pill-3 float-anim-3"><i class="fab fa-python"></i> Python</div>
+                    </div>
                 </div>
             </div>
-            <div class="hero-graphics">
-                <div class="profile-img-container glass-card reveal">
-                    <img src="image.jpg" alt="Raj Singh Profile" class="profile-img">
-                    <div class="floating-badge badge-1"><i class="fas fa-brain"></i></div>
-                    <div class="floating-badge badge-2"><i class="fab fa-react"></i></div>
-                    <div class="floating-badge badge-3"><i class="fab fa-python"></i></div>
+            
+            <div class="scroll-indicator">
+                <p>Scroll to explore</p>
+                <div class="mouse">
+                    <div class="wheel"></div>
                 </div>
             </div>
         </section>
+
+        <!-- Metrics Marquee -->
+        <div class="metrics-marquee-container">
+            <div class="metrics-marquee">
+                <span>100+ Active Users</span><span class="dot">•</span>
+                <span>3 Deployed AI Products</span><span class="dot">•</span>
+                <span>91% Threat Detection Accuracy</span><span class="dot">•</span>
+                <span>70% Efficiency Gain</span><span class="dot">•</span>
+                <span>500+ LeetCode Solved</span><span class="dot">•</span>
+                <!-- Duplicate for seamless scroll -->
+                <span>100+ Active Users</span><span class="dot">•</span>
+                <span>3 Deployed AI Products</span><span class="dot">•</span>
+                <span>91% Threat Detection Accuracy</span><span class="dot">•</span>
+                <span>70% Efficiency Gain</span><span class="dot">•</span>
+                <span>500+ LeetCode Solved</span><span class="dot">•</span>
+            </div>
+        </div>
 
         <!-- About Section -->
         <section id="about" class="about section-padding">
-            <div class="section-title">
-                <h2>About <span class="gradient-text">Me</span></h2>
+            <div class="section-header reveal-up">
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <div class="title-line"></div>
             </div>
-            <div class="about-container">
-                <div class="about-text glass-card reveal">
-                    <p>
-                        I am an AI-focused developer passionate about building intelligent systems that solve real-world
-                        problems. My core expertise lies in Machine Learning, Deep Learning, and Computer Vision, where
-                        I design and implement models that transform data into actionable insights.
-                    </p>
-                    <br>
-                    <p>
-                        Beyond AI, I specialize in full-stack MERN development, enabling me to seamlessly integrate AI
-                        models into scalable, production-ready web applications. I enjoy bridging the gap between
-                        research and real-world deployment — turning ideas into intelligent products.
-                    </p>
-                    <br>
-                    <p>
-                        With a solid understanding of Cloud Computing and DevOps fundamentals, I focus on building
-                        reliable, efficient, and scalable systems. I am continuously learning and exploring Agentic AI
-                        systems to develop autonomous and adaptive solutions for the future.
-                    </p>
+            
+            <div class="bento-grid-about reveal-up delay-1">
+                <div class="bento-card span-2 glass-panel">
+                    <div class="bento-icon"><i class="fas fa-user-astronaut"></i></div>
+                    <h3>The Journey</h3>
+                    <p>I'm a final-year CS student and AI Engineer specializing in fine-tuning LLMs and building Agentic AI workflows. My approach bridges deep learning research with robust software engineering.</p>
+                    <p>I've deployed systems from RAG pipelines to full-stack MERN applications, focusing on solutions that drive real business impact.</p>
+                </div>
+                
+                <div class="bento-card glass-panel highlight-card">
+                    <div class="bento-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Execution Speed</h3>
+                    <p>I take models from research to production in weeks, not months. Shipped 3 profitable products in 8 months.</p>
+                </div>
+                
+                <div class="bento-card glass-panel">
+                    <div class="bento-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Education</h3>
+                    <h4>SRMS College of Engineering</h4>
+                    <p class="text-sm">B.Tech in CSE (2023 - Present)</p>
+                    <p class="text-sm highlight">CGPA: 7.0/10</p>
+                </div>
+                
+                <div class="bento-card span-2 glass-panel">
+                    <div class="bento-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certifications & Achievements</h3>
+                    <ul class="cert-list">
+                        <li><i class="fas fa-check-circle"></i> <strong>Naukri Young Turks 2025:</strong> Ranked 428 Nationally</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>IBM SkillsBuild:</strong> RAG & Gen AI Ethics</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Tata Group (Forage):</strong> Cybersecurity & GenAI</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>TCS iON:</strong> Career Edge Professional</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Education Section -->
-        <section id="education" class="education-section section-padding">
-            <div class="section-title reveal">
-                <h2>My <span class="gradient-text">Education</span></h2>
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+                <div class="title-line"></div>
             </div>
-            <div class="education-container">
-                <div class="education-card glass-card reveal">
-                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <div class="edu-content">
-                        <h3>B.Tech. (Computer Science and Engineering)</h3>
-                        <h4 class="edu-institution">SRMS College of Engineering, Technology & Research, Bareilly, India
-                        </h4>
-                        <div class="edu-meta">
-                            <span class="edu-date"><i class="fas fa-calendar-alt"></i> 2023 - Present</span>
-                            <span class="edu-grade"><i class="fas fa-star"></i> CGPA: 7.0/10</span>
+            
+            <div class="projects-bento reveal-up delay-1">
+                <!-- Project 1 -->
+                <div class="bento-project glass-panel main-project magnetic-container">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag live">LIVE STARTUP</span>
                         </div>
+                        <h3>My Trip Advisor</h3>
+                        <p class="project-desc">AI-Powered Travel Planning Platform handling 50+ users. Generates personalized itineraries in under 10 seconds using LangChain prompt chaining, reducing manual effort by 70%.</p>
+                        
+                        <div class="tech-stack-mini">
+                            <span>Next.js</span> • <span>GPT-4o</span> • <span>LangChain</span>
+                        </div>
+                        
+                        <a href="https://mytripadvisior.co.in" target="_blank" class="project-link btn btn-outline">View Live <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-visual">
+                        <div class="visual-mockup trip-mockup">
+                            <i class="fas fa-plane-departure overlay-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bento-project glass-panel secondary-project magnetic-container">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag deployed">DEPLOYED</span>
+                        </div>
+                        <h3>Cyber Threat Detection</h3>
+                        <p class="project-desc">Real-time mobile security system analyzing 15K+ samples with sub-2s latency. Fine-tuned BERT model achieving 91% accuracy.</p>
+                        
+                        <div class="tech-stack-mini">
+                            <span>BERT</span> • <span>Flask</span> • <span>Flutter</span>
+                        </div>
+                        
+                        <a href="https://github.com/rajsingh9898" target="_blank" class="project-link btn-text">GitHub <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bento-project glass-panel secondary-project magnetic-container">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag production">PRODUCTION</span>
+                        </div>
+                        <h3>RAG Chatbot</h3>
+                        <p class="project-desc">Intelligent Document Q&A chatbot using FastAPI and Pinecone. Supports multi-doc semantic search for 20+ active users.</p>
+                        
+                        <div class="tech-stack-mini">
+                            <span>FastAPI</span> • <span>Pinecone</span> • <span>React</span>
+                        </div>
+                        
+                        <a href="https://github.com/rajsingh9898" target="_blank" class="project-link btn-text">GitHub <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -123,241 +222,102 @@
 
         <!-- Skills Section -->
         <section id="skills" class="skills section-padding">
-            <div class="section-title reveal">
-                <h2>Technical <span class="gradient-text">Skills</span></h2>
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Tech <span class="gradient-text">Arsenal</span></h2>
+                <div class="title-line"></div>
             </div>
-            <div class="skills-grid">
-
-                <!-- Programming Languages -->
-                <div class="skill-category glass-card reveal">
-                    <h3>Languages</h3>
-                    <ul class="skill-list">
-                        <li><span class="skill-name">Python</span>
-                            <div class="skill-bar">
-                                <div class="skill-fill" data-width="90%"></div>
-                            </div>
-                        </li>
-                        <li><span class="skill-name">Java</span>
-                            <div class="skill-bar">
-                                <div class="skill-fill" data-width="85%"></div>
-                            </div>
-                        </li>
-                        <li><span class="skill-name">JavaScript</span>
-                            <div class="skill-bar">
-                                <div class="skill-fill" data-width="95%"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Frameworks -->
-                <div class="skill-category glass-card reveal">
-                    <h3>Frameworks & Libraries</h3>
-                    <div class="skill-tags">
-                        <span class="tag">MERN Stack</span>
-                        <span class="tag">Flask</span>
-                        <span class="tag">Django</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">OpenCV</span>
-                        <span class="tag">NumPy</span>
-                        <span class="tag">Pandas</span>
-                        <span class="tag">Matplotlib</span>
-                        <span class="tag">Seaborn</span>
-                        <span class="tag">SckitLearn</span>
+            
+            <div class="skills-container reveal-up delay-1">
+                <div class="skill-group glass-panel">
+                    <h3><i class="fas fa-code color-accent-2"></i> Languages</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">Java</span>
+                        <span class="skill-pill">TypeScript</span>
                     </div>
                 </div>
-
-                <!-- Core Concepts -->
-                <div class="skill-category glass-card reveal">
-                    <h3>Core Concepts</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Machine Learning</span>
-                        <span class="tag">Deep Learning</span>
-                        <span class="tag">Computer Vision</span>
-                        <span class="tag">NLP</span>
-                        <span class="tag">Agentic AI</span>
-                        <span class="tag">Statistical Analysis</span>
-                        <span class="tag">DSA</span>
-                        <span class="tag">OOP</span>
+                
+                <div class="skill-group glass-panel">
+                    <h3><i class="fas fa-layer-group color-accent-1"></i> Frameworks</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Next.js</span>
+                        <span class="skill-pill">React</span>
+                        <span class="skill-pill">Flask</span>
+                        <span class="skill-pill">Django</span>
+                        <span class="skill-pill">Express</span>
+                        <span class="skill-pill">Streamlit</span>
                     </div>
                 </div>
-
-                <!-- Tools & Platforms -->
-                <div class="skill-category glass-card reveal">
-                    <h3>Tools, DB & DevOps</h3>
-                    <div class="skill-tags">
-                        <span class="tag">MySQL</span>
-                        <span class="tag">MongoDB</span>
-                        <span class="tag">Docker</span>
-                        <span class="tag">GCP</span>
-                        <span class="tag">CI/CD</span>
-                        <span class="tag">Git/GitHub</span>
+                
+                <div class="skill-group glass-panel">
+                    <h3><i class="fas fa-brain color-accent-3"></i> AI & ML</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">LLMs</span>
+                        <span class="skill-pill">RAG</span>
+                        <span class="skill-pill">LangChain</span>
+                        <span class="skill-pill">HuggingFace</span>
+                        <span class="skill-pill">Computer Vision</span>
+                        <span class="skill-pill">NLP</span>
+                        <span class="skill-pill">ScikitLearn</span>
+                        <span class="skill-pill">TensorFlow</span>
                     </div>
                 </div>
-
+                
+                <div class="skill-group glass-panel">
+                    <h3><i class="fas fa-server color-accent-2"></i> Tools & DB</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Docker</span>
+                        <span class="skill-pill">GCP</span>
+                        <span class="skill-pill">MongoDB</span>
+                        <span class="skill-pill">MySQL</span>
+                        <span class="skill-pill">Firebase</span>
+                        <span class="skill-pill">Pinecone</span>
+                        <span class="skill-pill">Git</span>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects section-padding">
-            <div class="section-title reveal">
-                <h2>Featured <span class="gradient-text">Projects</span></h2>
-            </div>
-            <div class="project-grid">
-
-                <!-- Project 1 -->
-                <div class="project-card glass-card reveal">
-                    <div class="project-header">
-                        <h3>My Trip Advisor</h3>
-                        <div class="project-date">Feb 2025 - Present (Startup)</div>
-                    </div>
-                    <ul class="project-details">
-                        <li>Built an AI-powered Next.js platform using OpenAI for instant, personalized travel
-                            itineraries.</li>
-                        <li>Engineered an AI-driven recommendation engine to automate route optimization and budget
-                            planning.</li>
-                        <li>Developed a full-stack AI travel assistant featuring dynamic PDF exports and secure
-                            authentication.</li>
-                    </ul>
-                    <div class="project-footer">
-                        <div class="project-tech">
-                            <span>Next.js</span> <span>OpenAI</span> <span>AI</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/rajsingh9898/MTA" target="_blank" class="project-link"><i
-                                    class="fab fa-github"></i> Code</a>
-                            <a href="https://mytripadvisior.co.in" target="_blank" class="project-link live-link"><i
-                                    class="fas fa-external-link-alt"></i> Live</a>
-                        </div>
-                    </div>
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="contact-box glass-panel reveal-up">
+                <div class="contact-bg-glow"></div>
+                <h2>Ready to <span class="gradient-text">Build Something Amazing?</span></h2>
+                <p>I'm currently open for full-time AI/ML Engineer or Full-Stack roles, as well as freelance consulting.</p>
+                
+                <div class="contact-actions">
+                    <a href="mailto:rajsingh98447859@gmail.com?subject=Let's%20Collaborate" id="contact-btn" class="btn btn-primary btn-large magnetic blink-on-hover">
+                        <i class="fas fa-paper-plane"></i> Say Hello
+                    </a>
+                    <span id="copy-toast" style="opacity: 0; transition: 0.3s; color: #10B981; font-size: 0.9rem; margin-top: 10px; display: block;">Email copied to clipboard!</span>
                 </div>
-
-                <!-- Project 2 -->
-                <div class="project-card glass-card reveal">
-                    <div class="project-header">
-                        <h3>Cyber Threat Detection specific for Women</h3>
-                        <div class="project-date">Sep 2025 - Dec 2025</div>
-                    </div>
-                    <ul class="project-details">
-                        <li>Built an AI-powered threat detection system using a Python Flask backend and a Flutter-based
-                            mobile application.</li>
-                        <li>Implemented LLM and ML models for real-time text, email, and SMS threat analysis with
-                            automated alert generation.</li>
-                        <li>Developed real-time monitoring, emergency alerts, and threat history tracking for enhanced
-                            user safety.</li>
-                    </ul>
-                    <div class="project-footer">
-                        <div class="project-tech">
-                            <span>Python</span> <span>Flask</span> <span>Flutter</span> <span>LLM</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/rajsingh9898/AI-Powered-Mobile-Application-for-Cyber-Threat-Detection-for-Women"
-                                target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
+                
+                <div class="availability">
+                    <span class="status-dot"></span> Available for new opportunities
                 </div>
-
-                <!-- Project 3 -->
-                <div class="project-card glass-card reveal">
-                    <div class="project-header">
-                        <h3>College Event Registration</h3>
-                        <div class="project-date">Sep 2025 - Oct 2025</div>
-                    </div>
-                    <ul class="project-details">
-                        <li>Built a full-stack MERN event management platform with secure user and admin authentication.
-                        </li>
-                        <li>Implemented event, team, and user management with JWT-based role access and analytics
-                            dashboards.</li>
-                        <li>Built PDF generation and cloud-ready deployment with a scalable MVC architecture.</li>
-                    </ul>
-                    <div class="project-footer">
-                        <div class="project-tech">
-                            <span>MERN</span> <span>JWT</span> <span>MVC</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/rajsingh9898/college-events-registration-form" target="_blank"
-                                class="project-link"><i class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Achievements Section -->
-        <section id="achievements" class="achievements section-padding">
-            <div class="section-title reveal">
-                <h2>Achievements & <span class="gradient-text">Certifications</span></h2>
-            </div>
-            <div class="timeline">
-
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content glass-card">
-                        <h4>Naukri Young Turks 2025</h4>
-                        <p>Ranked 428 in a national-level tech assessment.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content glass-card">
-                        <h4>Data Analytics Workshop - TechVision</h4>
-                        <p>7-Day Intensive Program.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content glass-card">
-                        <h4>Data Structures & Algorithms</h4>
-                        <p>Solved 500+ questions across Leetcode, CodeChef, and HackerRank.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content glass-card">
-                        <h4>IBM SkillsBuild</h4>
-                        <p>Introduction to RAG & Ethical Consideration Of Gen AI.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content glass-card">
-                        <h4>Tata Group (Forage)</h4>
-                        <p>Job Simulations covering Cybersecurity, GenAI Analytics, and Data Visualization.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content glass-card">
-                        <h4>TCS iON Career Edge</h4>
-                        <p>Young Professional Certification.</p>
-                    </div>
-                </div>
-
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="footer-content">
-            <h2 class="footer-logo">Raj <span class="gradient-text">Singh</span></h2>
-            <p>Varanasi, UP | +91-7388445597</p>
-            <div class="footer-socials">
-                <a href="mailto:rajsingh98447859@gmail.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/rajsingh9898" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/rajsingh9898/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://leetcode.com/u/rajsingh9898/" target="_blank"><i class="fas fa-code"></i></a>
+            <div class="footer-brand">
+                <h2>R<span class="gradient-text">S</span>.</h2>
+                <p>Varanasi, UP | +91-7388445597</p>
             </div>
-            <p class="copyright">&copy; 2026 Raj Singh. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="mailto:rajsingh98447859@gmail.com" class="magnetic-link"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/rajsingh9898" target="_blank" class="magnetic-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rajsingh9898/" target="_blank" class="magnetic-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://leetcode.com/u/rajsingh9898/" target="_blank" class="magnetic-link"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Raj Singh. All Rights Reserved.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
