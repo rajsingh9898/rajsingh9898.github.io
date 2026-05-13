@@ -745,6 +745,13 @@ h1, h2, h3, h4, h5, h6, .logo-text, .btn {
     transition: var(--transition-smooth);
 }
 
+img.project-img {
+    background: none;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    padding: 0;
+}
+
 .overlay-icon { font-size: 4rem; color: rgba(255,255,255,0.5); }
 
 .bento-project:hover .visual-mockup { transform: translate(-50%, -50%) scale(1.05) rotate(2deg); }
